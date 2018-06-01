@@ -8,7 +8,7 @@ def index():
 
 @app.route('/news')
 def news():
-    return '内蒙古新闻资讯'
+    return '内蒙古新闻资讯,请选择浏览'
 
 if __name__ == '__main__':
     app.run()
